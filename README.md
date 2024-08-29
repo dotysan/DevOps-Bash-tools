@@ -373,12 +373,13 @@ and [Mac](https://github.com/HariSekhon/Knowledge-Base/blob/main/linux.md).
   - `aws_config_recording.sh` - lists [AWS Config](https://aws.amazon.com/config/) recorders, their recording status (should be true) and their last status (should be success)
   - `aws_csv_creds.sh` - prints AWS credentials from a CSV file as shell export statements. Useful to quickly switch your shell to some exported credentials from a service account for testing permissions or pipe to upload to a CI/CD system via an API (eg. `jenkins_cred_add*.sh`, `github_actions_repo*_set_secret.sh`, `gitlab_*_set_env_vars.sh`, `circleci_*_set_env_vars.sh`, `bitbucket_*_set_env_vars.sh`, `terraform_cloud_*_set_vars.sh`, `kubectl_kv_to_secret.sh`). Supports new user and new access key csv file formats.
   - `aws_codecommit_csv_creds.sh` - prints AWS [CodeCommit](https://aws.amazon.com/codecommit/) Git credentials from a CSV file as shell export statements. Similar use case and chaining as above
-  - `aws_ec2_list_instance_states.sh` - quickly list AWS EC2 instances and their states in an easy to read table output
+  - `aws_ec2_list_instance_states.sh` - quickly list AWS EC2 instances, their DNS names and States in an easy to read table output
   - `aws_ec2_terminate_instance_by_name.sh` - terminate an AWS EC2 instance by name
   - `aws_ec2_ebs_*.sh` - AWS EC2 [EBS](https://aws.amazon.com/ebs/) scripts:
     - `aws_ec2_ebs_volumes.sh` - list EC2 instances and their EBS volumes in the current region
     - `aws_ec2_ebs_create_snapshot_and_wait.sh - creates a snapshot of a given EBS volume ID and waits for it to complete with exponential backoff
     - `aws_ec2_ebs_resize_and_wait.sh - resizes an EBS volume and waits for it to complete modifying and optionally optimizing with exponential backoff
+    - `aws_ec2_ebs_volumes_unattached.sh` - list an unattached EBS volumes in a table format
   - `aws_ecr_*.sh` - AWS [ECR](https://aws.amazon.com/ecr/) docker image management scripts:
     - `aws_ecr_docker_build_push.sh` - builds a docker image and pushes it to ECR with not just the `latest` docker tag but also the current Git hashref and Git tags
     - `aws_ecr_list_repos.sh` - lists ECR repos, and their docker image mutability and whether image scanning is enabled
@@ -1169,10 +1170,13 @@ See also [Knowledge Base notes for CI/CD](https://github.com/HariSekhon/Knowledg
 `java/` directory:
 
 - `java_show_classpath.sh` - shows Java classpaths, one per line, of currently running Java programs
-- `java_decompile_jar.sh` - decompiles a Java JAR in /tmp, finds the main class and runs a Java decompiler on its main .class file using `jd_gui.sh`
-- `jd_gui.sh` - runs Java Decompiler JD GUI, downloading its jar the first time if it's not already present
-- `cfr.sh` - runs CFR command line Java decompiler, downloading its jar the first time if it's not already present
 - `jvm_heaps*.sh` - show all your Java heap sizes for all running Java processes, and their total MB (for performance tuning and sizing)
+- Java Decompilers:
+  - `java_decompile_jar.sh` - decompiles a Java JAR in /tmp, finds the main class and runs a Java decompiler on its main .class file using `jd_gui.sh`
+  - `jd_gui.sh` - runs Java Decompiler JD GUI, downloading its jar the first time if it's not already present
+  - `bytecode_viwer.sh` - runs Bytecode-Viewer GUI Java decompiler, downloading its jar the first time if it's not already present
+  - `cfr.sh` - runs CFR command line Java decompiler, downloading its jar the first time if it's not already present
+  - `procyon.sh` - runs Procyon command line Java decompiler, downloading its jar the first time if it's not already present
 
 See also [Knowledge Base notes for Java](https://github.com/HariSekhon/Knowledge-Base/blob/main/java.md)
 and [JVM Performance Tuning](https://github.com/HariSekhon/Knowledge-Base/blob/main/java-jvm-performance-tuning.md).
