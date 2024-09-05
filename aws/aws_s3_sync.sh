@@ -26,9 +26,19 @@ Syncs multiple AWS S3 URLs from file lists
 
 Needed because clients often request copies of data ranges of multiple directories between environment buckets for test data
 
-For multiple source and destinations specify text files containing the paths, one line per path, with # comment lines ignored for convenience
+For multiple source and destinations specify text files containing the paths, one line per path
 
-If the arguments given are not files, assumes them to be single literal S3 paths
+For convenience:
+
+- ignores hash # comment lines
+- strips leading and trailing whitespaces
+- validates each S3 URL's format
+- validates the source and destination list lengths are the same
+- validates each source and destination path suffix is the same
+  - can disable this by 'export AWS_S3_SYNC_DIFFERENT_PATHS=true' before running this script if you really intend for
+    the destination paths to be different to the source paths
+
+These last two checks help prevent off-by-one human errors missing one path and spraying data to the wrong directories
 
 You can populate the source and destination path files using native Bash like this:
 
@@ -51,8 +61,8 @@ help_usage "$@"
 
 min_args 2 "$@"
 
-source="$1"
-destination="$2"
+sources_file="$1"
+destinations_file="$2"
 shift || :
 shift || :
 
@@ -60,45 +70,69 @@ sources=()
 destinations=()
 
 decomment(){
-    sed 's/#.*$//; /^[[:space:]]*$/d' "$1"
+    sed '
+        s/#.*$//;
+        s/^[[:space:]]*//;
+        s/[[:space:]]*$//;
+        /^[[:space:]]*$/d
+    ' "$1"
 }
 
 validate_s3_url(){
-    if ! is_s3_url "$1"; then
-        die "Invalid S3 URL given: $1"
+    local url="$1"
+    if ! is_s3_url "$url"; then
+        die "Invalid S3 URL given: $url"
     fi
 }
 
 # initially deduplicated this to a load_file() function but it turns out mapfile is only Bash 4+
 # and Bash 3 has no native array passing, requiring array pass-by-name string and ugly evals
-if [ -f "$source" ]; then
-    timestamp "Loading sources from file '$source'"
-    while IFS= read -r line; do
-        validate_s3_url "$line"
-        sources+=("$line")
-    done < <(decomment "$source")
-else
-    sources=("$source")
+if ! [ -f "$sources_file" ]; then
+    die "File not found: $sources_file"
 fi
+timestamp "Loading sources from file '$sources_file'"
+while IFS= read -r line; do
+    validate_s3_url "$line"
+    sources+=("$line")
+done < <(decomment "$sources_file")
 sources_len="${#sources[@]}"
 timestamp "$sources_len sources loaded"
 echo
 
-if [ -f "$destination" ]; then
-    timestamp "Loading destinations from file '$destination'"
-    while IFS= read -r line; do
-        validate_s3_url "$line"
-        destinations+=("$line")
-    done < <(decomment "$destination")
-else
-    destinations=("$destination")
+if ! [ -f "$destinations_file" ]; then
+    die "File not found: $destinations_file"
 fi
+timestamp "Loading destinations from file '$destinations_file'"
+while IFS= read -r line; do
+    validate_s3_url "$line"
+    destinations+=("$line")
+done < <(decomment "$destinations_file")
 destinations_len="${#destinations[@]}"
 timestamp "$destinations_len destinations loaded"
 echo
 
+timestamp "Sanity check: Verifying source and destination list lengths are the same"
 if [ "$sources_len" != "$destinations_len" ]; then
     die "ERROR: length of sources and destinations arrays of paths are not equal in length: sources ($sources_len) vs destinations ($destinations_len)"
+fi
+
+if [ "${AWS_S3_SYNC_DIFFERENT_PATHS:-}" != true ]; then
+    timestamp "Sanity check: Verifying source and destination suffix paths are the same"
+    for ((i=0; i < sources_len; i++)); do
+        src="${sources[i]}"
+        dest="${destinations[i]}"
+        src_path="${src#s3://}"
+        src_path="${src_path#*/}"
+        dest_path="${dest#s3://}"
+        dest_path="${dest_path#*/}"
+        if [ "$src_path" != "$dest_path" ]; then
+            echo
+            error "Source path suffix '$src' does not match destination path suffix '$dest'"
+            echo
+            die "If this is really intentional, 'export AWS_S3_SYNC_DIFFERENT_PATHS=true' before running this script"
+        fi
+    done
+    echo
 fi
 
 for ((i=0; i < sources_len; i++)); do
@@ -110,4 +144,5 @@ for ((i=0; i < sources_len; i++)); do
 done
 
 echo
-timestamp "AWS S3 Sync completed"
+# we've already verified above that $sources_len and $destination_len are the same
+timestamp "AWS S3 Sync completed for $sources_len S3 URL paths"
