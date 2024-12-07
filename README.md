@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/harisekhon/devops-bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/harisekhon/devops-bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/network)
-[![Lines of Code](https://img.shields.io/badge/lines%20of%20code-96k-lightgrey?logo=codecademy)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
+[![Lines of Code](https://img.shields.io/badge/lines%20of%20code-96k-lightgrey?logo=codecademy)](#hari-sekhon---devops-bash-tools)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/LICENSE)
 [![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/HariSekhon/)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/DevOps-Bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/commits/master)
@@ -21,8 +21,8 @@ doesn't detect shell code properly
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=HariSekhon_DevOps-Bash-tools&metric=ncloc)](https://sonarcloud.io/dashboard?id=HariSekhon_DevOps-Bash-tools)
 -->
 
-[![Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
-[![Mac](https://img.shields.io/badge/OS-Mac-blue?logo=apple)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
+[![Linux](https://img.shields.io/badge/OS-Linux-blue?logo=linux)](#hari-sekhon---devops-bash-tools)
+[![Mac](https://img.shields.io/badge/OS-Mac-blue?logo=apple)](#hari-sekhon---devops-bash-tools)
 [![Docker](https://img.shields.io/badge/container-Docker-blue?logo=docker&logoColor=white)](https://hub.docker.com/r/harisekhon/bash-tools)
 [![Dockerfile](https://img.shields.io/badge/repo-Dockerfiles-blue?logo=docker&logoColor=white)](https://github.com/HariSekhon/Dockerfiles)
 [![DockerHub Pulls](https://img.shields.io/docker/pulls/harisekhon/bash-tools?label=DockerHub%20pulls&logo=docker&logoColor=white)](https://hub.docker.com/r/harisekhon/bash-tools)
@@ -88,6 +88,7 @@ awkward URLs more nicely replaced with shields.io
 [![JSON](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/json.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/json.yaml)
 [![YAML](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/yaml.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/yaml.yaml)
 [![XML](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/xml.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/xml.yaml)
+[![Markdown](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/markdown.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/markdown.yaml)
 [![Validation](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/validate.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/validate.yaml)
 [![Kics](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/kics.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/kics.yaml)
 [![Grype](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/grype.yaml/badge.svg)](https://github.com/HariSekhon/DevOps-Bash-tools/actions/workflows/grype.yaml)
@@ -136,7 +137,7 @@ Heavily used in many [GitHub repos](https://github.com/search?o=desc&q=user%3Aha
 
 ## Summary
 
-- Scripts for many popular DevOps technologies, see [Inventory](https://github.com/HariSekhon/DevOps-Bash-tools#inventory) below for more details
+- Scripts for many popular DevOps technologies, see [Index](#index) below for more details
 - Advanced configs for common tools like [Git](https://git-scm.com/), [vim](https://www.vim.org/), [screen](https://www.gnu.org/software/screen/), [tmux](https://github.com/tmux/tmux/wiki), [PostgreSQL psql](https://www.postgresql.org/) etc...
 - CI configs for most major Continuous Integration products (see [CI builds](https://harisekhon.github.io/CI-CD/) page)
 - CI scripts for a drop-in framework of standard checks to run in all [CI builds](https://harisekhon.github.io/CI-CD/), CI detection, accounting for installation differences across CI environments, root vs user, virtualenvs etc.
@@ -187,7 +188,7 @@ To bootstrap, install packages and link in to your shell profile to inherit all 
 curl -L https://git.io/bash-bootstrap | sh
 ```
 
-- Adds sourcing to `.bashrc`/`.bash_profile` to automatically inherit all `.bash.d/*.sh` environment enhancements for all technologies (see [Inventory](https://github.com/HariSekhon/DevOps-Bash-tools#Inventory) below)
+- Adds sourcing to `.bashrc`/`.bash_profile` to automatically inherit all `.bash.d/*.sh` environment enhancements for all technologies (see [Inventory](#index) below)
 - Symlinks `.*` config dotfiles to `$HOME` for [git](https://git-scm.com/), [vim](https://www.vim.org/), top, [htop](https://hisham.hm/htop/), [screen](https://www.gnu.org/software/screen/), [tmux](https://github.com/tmux/tmux/wiki), [editorconfig](https://editorconfig.org/), [Ansible](https://www.ansible.com/), [PostgreSQL](https://www.postgresql.org/) `.psqlrc` etc. (only when they don't already exist so there is no conflict with your own configs)
 - Installs OS package dependencies for all scripts (detects the OS and installs the right RPMs, Debs, Apk or Mac HomeBrew packages)
 - Installs Python packages
@@ -201,7 +202,7 @@ cd bash-tools
 make
 ```
 
-`make install` sets your shell profile to source this repo. See [Individual Setup Parts](https://github.com/HariSekhon/DevOps-Bash-tools#Individual-Setup-Parts) below for more install/uninstall options.
+`make install` sets your shell profile to source this repo. See [Individual Setup Parts](#individual-setup-parts) below for more install/uninstall options.
 
 ## Index
 
@@ -227,7 +228,7 @@ make
   - Terraform Cloud, Octopus Deploy
   - Checkov / Bridgecrew Cloud
 - [AI & IPaaS](#ai--ipaas) - OpenAI (ChatGPT), Make.com
-- [Internet Services](#internet-services) - Cloudflare, DataDog, Digital Ocean, Kong API Gateway, GitGuardian, Jira, NGrok, Traefik, Pingdom, Wordpress
+- [Internet Services](#internet-services) - Cloudflare, DataDog, Digital Ocean, Kong API Gateway, GitGuardian, Jira, NGrok, Traefik, Pingdom, Wordpress and various pastebins and file upload sites
 - [Java](#java) - Java utilies to debug running Java programs or decompile Java JAR code for deeper debugging
 - [Python](#python) - Python utilities & library management
 - [Perl](#perl) - Perl utilities & library management
@@ -326,8 +327,6 @@ Top-level `.bashrc` and `.bash.d/` directory:
 - `find_broken_symlinks.sh` - find broken symlinks pointing to non-existent files/directories
 - `find_lock.sh` - tries to find if a lockfile is used in the given or current working directory by taking snapshots of the file list before and after a prompt in which you should open/close an application
 - `http_duplicate_urls.sh` - find duplicate URLs in a given web page
-- `image_join_stack.sh` - stack joins two images after matching their widths so they align correctly
-- `imageopen.sh` - opens the given image file using whatever available tool is found on Linux or Mac
 - `ldapsearch.sh` - shortens `ldapsearch` command by inferring switches from environment variables
 - `ldap_user_recurse.sh` / `ldap_group_recurse.sh` - recurse Active Directory LDAP users upwards to find all parent groups, or groups downwards to find all nested users (useful for debugging LDAP integration and group-based permissions)
 - `linux_distro_versions.sh` - quickly returns the list of major versions for a given Linux distro
@@ -335,7 +334,8 @@ Top-level `.bashrc` and `.bash.d/` directory:
 - `organize_downloads.sh` - moves files of well-known extensions in the `$HOME/Downloads` directory older than 1 week to capitalized subdirectories of their type to keep the `$HOME/Downloads/` directory tidy
 - `copy_to_clipboard.sh` - copies stdin or string arg to system clipboard on Linux or Mac
 - `paste_from_clipboard.sh` - pastes from system clipboard to stdout on Linux or Mac
-- `paste_diff_settings.sh` - Takes snapshots of before and after clipboard changes and diffs them to show config changes
+- `paste_diff_settings.sh` - takes snapshots of before and after clipboard changes and diffs them to show config changes
+- `processes_ram_sum.sh` - sums the RAM usage of all processes matching a given regex in GB to one decimal place
 - `pldd.sh` - parses `/proc` on Linux to show the runtime `.so` loaded dynamic shared libraries a program pid is using. Runtime equivalent of the classic static `ldd` command and because the system `pldd` command often fails to attach to a process
 - `random_select.sh` - selects one of given args at random. Useful for sampling, running randomized subsets of large test suites etc.
 - `shields_embed_logo.sh` - base64 encodes a given icon file or url and prints the `logo=...` url parameter you need to add the [shields.io](https://shields.io/) badge url
@@ -345,8 +345,13 @@ Top-level `.bashrc` and `.bash.d/` directory:
 - `ssl_get_cert.sh` - gets a remote `host:port` server's SSL cert in a format you can pipe, save and use locally, for example in Java truststores
 - `ssl_verify_cert.sh` - verifies a remote SSL certificate (battle tested more feature-rich version `check_ssl_cert.pl` exists in the [Advanced Nagios Plugins](https://github.com/HariSekhon/Nagios-Plugins) repo)
 - `ssl_verify_cert_by_ip.sh` - verifies SSL certificates on specific IP addresses, useful to test SSL source addresses for CDNs, such as Cloudflare Proxied sources before enabling SSL Full-Strict Mode for end-to-end, or Kubernetes ingresses (see also `curl_k8s_ingress.sh`)
+- `ttygif.sh` - creates a Gif from running terminal commands using `ttyrec` and `ttygif` and then opens the resulting gif
+- `asciinema.sh` - creates a Gif from running terminal commands using `asciinema` and `agg` and then opens the resulting gif
+- `terminalizer.sh` - creates a Gif from running terminal commands using Terminalizer and then opens the resulting gif
 - `urlencode.sh` / `urldecode.sh` - URL encode/decode quickly on the command line, in pipes etc.
-- `urlopen.sh` - opens the given URL from first arg or stdin, or first URL found in a given file. Uses the system's default browser
+- `urlextract.sh` - extracts the URLs from a given string arg, file or standard input
+- `urlopen.sh` - opens the URL given as an arg, or first URL found from stdin or a given file.
+  Uses the system's default browser
 - `vagrant_hosts.sh` - generate `/etc/hosts` output from a `Vagrantfile`
 - `vagrant_total_mb.sh` - calculate the RAM committed to VMs in a `Vagrantfile`
 
@@ -370,6 +375,7 @@ Mac automation scripts to automate the Mac UI and settings
 - `keystrokes.sh` - send N keystroke combinations
 - `mouse_clicks.sh` - send N mouse click combinations to sequence of screen coordinates
   - `get_mouse_coordinates.sh` - print the current mouse coordinates - to know what to pass to above script
+- `mouse_clicks_remote_desktop.sh` - switches to Microsoft Remote Desktop, waits 10 seconds and then clicks the mouse once a minute to prevent the screensaver from coming on. Workaround to Active Directory Group Policies that don't let you disable the screensaver. Point your mouse to an area that will have no mouse click effect, the Cmd-Tab to Terminal and run this
 - `get_frontmost_process_title.scpt` - detect the frontmost window
   - to detect if you should send keystrokes / mouse clicks)
 - `set_frontmost_process.scpt` - switch to bring the given app to the foreground to send keystrokes / mouse clicks to it
@@ -426,10 +432,12 @@ Prometheus, OpenTSDB, InfluxDB etc.
 `aws/` directory:
 
 - [AWS](https://aws.amazon.com/) scripts - `aws_*.sh`:
+  - `aws_profile.sh` - switches to an AWS Profile given as an arg or prompts the user with a convenient interactive menu list of AWS profiles to choose from - useful when you have lots of AWS work profiles
   - `aws_cli_create_credential.sh` - creates an AWS service account user for CI/CD or CLI with Admin permissions (or other group or policy), creates an AWS Access Key, saves a credentials CSV and even prints the shell export commands and aws credentials file config to configure your environment to start using it. Useful trick to avoid CLI reauth to `aws sso login` every day.
   - `aws_terraform_create_credential.sh` - creates a AWS terraform service account with Administrator permissions for Terraform Cloud or other CI/CD systems to run Terraform plan and apply, since no CI/CD systems can work with AWS SSO workflows. Stores the access key as both CSV and prints shell export commands and credentials file config as above
   - `.envrc-aws` - copy to `.envrc` for [direnv](https://direnv.net/) to auto-load AWS configuration settings such as AWS Profile, Compute Region, EKS cluster kubectl context etc.
     - calls `.envrc-kubernetes` to set the `kubectl` context isolated to current shell to prevent race conditions between shells and scripts caused by otherwise naively changing the global `~/.kube/config` context
+  - `aws_sso_ssh.sh` - launches local AWS SSO authentication pop-up (if not already authenticated), then scp's the latest resultant `~/.aws/sso/cache/` file to the remote server and SSH's there so that you can use AWS CLI or kubectl to EKS remotely on that server easily, without having to copy and paste the token from remote aws sso login to your local web browser
   - `aws_terraform_create_s3_bucket.sh` - creates a Terraform S3 bucket for storing the backend state, locks out public access, enables versioning, encryption, and locks out Power Users role and optionally any given user/group/role ARNs via a bucket policy for safety
   - `aws_terraform_create_dynamodb_table.sh` - creates a Terraform locking table in DynamoDB for use with the S3 backend, plus custom IAM policy which can be applied to less privileged accounts
   - `aws_terraform_create_all.sh` - runs all of the above, plus also applies the custom DynamoDB IAM policy to the user to ensure if the account is less privileged it can still get the Terraform lock (useful for GitHub Actions environment secret for a read only user to generate Terraform Plans in Pull Request without needing approval)
@@ -448,8 +456,13 @@ Prometheus, OpenTSDB, InfluxDB etc.
   - `aws_config_recording.sh` - lists [AWS Config](https://aws.amazon.com/config/) recorders, their recording status (should be true) and their last status (should be success)
   - `aws_csv_creds.sh` - prints AWS credentials from a CSV file as shell export statements. Useful to quickly switch your shell to some exported credentials from a service account for testing permissions or pipe to upload to a CI/CD system via an API (eg. `jenkins_cred_add*.sh`, `github_actions_repo*_set_secret.sh`, `gitlab_*_set_env_vars.sh`, `circleci_*_set_env_vars.sh`, `bitbucket_*_set_env_vars.sh`, `terraform_cloud_*_set_vars.sh`, `kubectl_kv_to_secret.sh`). Supports new user and new access key csv file formats.
   - `aws_codecommit_csv_creds.sh` - prints AWS [CodeCommit](https://aws.amazon.com/codecommit/) Git credentials from a CSV file as shell export statements. Similar use case and chaining as above
-  - `aws_ec2_list_instance_states.sh` - quickly list AWS EC2 instances, their DNS names and States in an easy to read table output
+  - `aws_ec2_instance_name_to_id.sh` - looks up an EC2 instance ID from an instance name with extra safety checks that only a single instance ID is returned and a reverse lookup on that instance ID to re-verify it matches the name. If an instance ID is passed, returns it as is for convenience. Used by adjacent scripts
+  - `aws_ec2_instances.sh` - lists AWS EC2 instances, their DNS names and States in an easy to read table output
   - `aws_ec2_terminate_instance_by_name.sh` - terminate an AWS EC2 instance by name
+  - `aws_ec2_create_ami_from_instance.sh` - creates an AWS EC2 AMI from an EC2 instance and waits for it to become available for use
+  - `aws_ec2_clone_instance.sh` - clones an AWS EC2 instance by creating an AMI from the original and then booting a new instance from the AMI with the same settings as the original instance. Useful to testing risky things on a separate EC2 instance, such as Server Administrator recovery of Tableau
+  - `aws_ec2_amis.sh` - list AWS EC2 AMIs belonging to your account in an easy to read table output
+  - `aws_ec2_ami_ids.sh` - lists AWS EC2 AMI IDs only, one per line, to be used in adjacent scripts that creating mapping tables and translate AMI IDs to names in inventory scripts `aws_info_ec2*.sh`
   - `aws_ec2_ebs_*.sh` - AWS EC2 [EBS](https://aws.amazon.com/ebs/) scripts:
     - `aws_ec2_ebs_volumes.sh` - list EC2 instances and their EBS volumes in the current region
     - `aws_ec2_ebs_create_snapshot_and_wait.sh - creates a snapshot of a given EBS volume ID and waits for it to complete with exponential backoff
@@ -493,6 +506,14 @@ Prometheus, OpenTSDB, InfluxDB etc.
     - `aws_iam_users_mfa_serials.sh` - lists AWS users [MFA](https://aws.amazon.com/iam/features/mfa/) serial numbers (differentiates Virtual vs Hardware MFAs)
     - `aws_iam_users_pw_last_used.sh` - lists AWS users and their password last used date
   - `aws_ip_ranges.sh` - get all AWS IP ranges for a given Region and/or Service using the IP range API
+  - `aws_info*.sh`:
+    - `aws_info_all_profiles.sh` - calls `aws_info.sh` for all AWS profiles using `aws_foreach_profile.sh`
+      - `aws_info.sh` - lists AWS deployed resources in the current or specified AWS account profile
+        - `aws_info_ec2.sh` - lists AWS EC2 Instances resources deployed in the current AWS account
+    - `aws_info_ec2_csv.sh` - lists AWS EC2 Instances in quoted CSV format in the current AWS account
+    - `aws_info_ec2_all_profiles_csv.sh` - lists AWS EC2 Instances in quoted CSV format across all configured AWS profiles for their configured region
+  - `aws_eks_cloudwatch_logs.sh` - enables and fetches AWS EKS Master logs via CloudWatch
+  - `aws_eks_ssh_dump_logs.sh` - fetch system logs from EKS Worker Nodes EC2 VMs (eg. for support debug requests by vendors)
   - `aws_kms_key_rotation_enabled.sh` - lists [AWS KMS](https://aws.amazon.com/kms/) keys and whether they have key rotation enabled
   - `aws_kube_creds.sh` - auto-loads all [AWS EKS](https://aws.amazon.com/eks/) clusters credentials in the current --profile and --region so your kubectl is ready to rock on AWS
   - `aws_kubectl.sh` - runs kubectl commands safely fixed to a given [AWS EKS](https://aws.amazon.com/eks/) cluster using config isolation to avoid concurrency race conditions
@@ -506,7 +527,16 @@ Prometheus, OpenTSDB, InfluxDB etc.
   - `aws_rds_open_port_to_my_ip.sh` - adds a security group to an RDS DB instance to open its native database SQL port to your public IP address
   - `aws_rds_get_version.sh` - quickly retrieve the version of an RDS database to know which JDBC jar version to download using `install/download_*_jdbc.sh` when setting up connections
   - `aws_route53_check_ns_records.sh` - checks AWS [Route 53](https://aws.amazon.com/route53/) public hosted zones NS servers are delegated in the public DNS hierarchy and that there are no rogue NS servers delegated not matching the Route 53 zone configuration
+  - `aws_sso_accounts.sh` - lists all AWS SSO accounts the current SSO user has access to
+  - `aws_sso_configs.sh` - generates AWS SSO configs for all AWS SSO accounts the currently logged in SSO user has access to
+  - `aws_sso_configs_save.sh` - saves AWS SSO configs generated by `aws_sso_configs.sh` to `~/.aws/config` if they're not already found
+  - `aws_sso_config_duplicate_sections.sh` - lists duplicate AWS SSO config sections that are using the same sso_account_id. Useful to deduplicate configs containing a mix of hand crafted and automatically generated `aws_sso_configs.sh`
+  - `aws_sso_config_duplicate_profile_names.sh` - lists duplicate AWS SSO config profile names that are using the same sso_account_id
   - `aws_sso_env_creds.sh` - retrieves AWS SSO session credentials in the format of environment export commands for copying to other systems like Terraform Cloud
+  - `aws_sso_role_arn.sh` - prints the currently authenticated AWS SSO user's role ARN in IAM policy usable format
+  - `aws_sso_role_arns.sh` - prints all AWS SSO role ARNs in IAM policy usable format
+  - `aws_profile_config_add_if_missing.sh` - reads AWS profile config blocks from stdin and appends them to the `~/.aws/config` file if the profile section is not found
+  - `aws_profile_generate_direnvs.sh` - generates subdirectories containing the `config.ini` and `.envrc` for every AWS profile found in the given file or `$AWS_CONFIG_FILE` or `~/.aws/config`. Useful to take a large generated AWS `config.ini` from `aws_sso_configs.sh` and then split it into subdirectories for direnvs
   - `aws_s3_bucket.sh` - creates an S3 bucket, blocks public access, enables versioning, encryption, and optionally locks out any given user/group/role ARNs via a bucket policy for safety (eg. to stop Power Users accessing a sensitive bucket like Terraform state)
   - `aws_s3_buckets_block_public_access.sh` - blocks public access to one or more given S3 buckets or files containing bucket names, one per line
   - `aws_s3_account_block_public_access.sh` - blocks S3 public access at the AWS account level
@@ -701,6 +731,7 @@ See also [Knowledge Base notes for GCP](https://github.com/HariSekhon/Knowledge-
 - `kubernetes_delete_stuck_namespace.sh` - to forcibly delete those pesky kubernetes namespaces of 3rd party apps like Knative that get stuck and hang indefinitely on the finalizers during deletion
 - `kubeadm_join_cmd.sh` - outputs `kubeadm join` command (generates new token) to join an existing Kubernetes cluster (used in [vagrant kubernetes](https://github.com/HariSekhon/DevOps-Bash-tools/tree/master/vagrant/kubernetes) provisioning scripts)
 - `kubeadm_join_cmd2.sh` - outputs `kubeadm join` command manually (calculates cert hash + generates new token) to join an existing Kubernetes cluster
+- `kubernetes_nodes_ssh_dump_logs.sh` - fetch logs from Kubernetes nodes (eg. for support debug requests by vendors)
 - `kubectl_exec.sh` - finds and execs to the first Kubernetes pod matching the given name regex, optionally specifying the container name regex to exec to, and shows the full generated `kubectl exec` command line for clarity
 - `kubectl_exec2.sh` - finds and execs to the first Kubernetes pod matching given pod filters, optionally specifying the container to exec to, and shows the full generated `kubectl exec` command line for clarity
 - `kubectl_pods_per_node.sh` - lists number of pods per node sorted descending
@@ -789,6 +820,11 @@ See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowled
   when downloading)
 - `csv_header_indices.sh` - list CSV headers with their zero indexed numbers, useful reference when coding against
   column positions
+- `ini_config_add_if_missing.sh` - reads INI config blocks from stdin and appends them to the specified file if the section is not found. Used by `aws_profile_config_add_if_missing.sh`
+- `ini_config_duplicate_sections.sh` - lists duplicate INI config sections that are using the same value for a given key in the given .ini file
+- `ini_config_duplicate_section_names.sh` - lists duplicate INI config section names that are using the same value for a given key in the given .ini file
+- `ini_grep_section.sh` - prints the named section from a given .ini file to stdout
+- `wordcount.sh` - counts and ranks words by their frequency in file(s) or stdin
 - Data format validation `validate_*.py` from [DevOps Python Tools repo](https://github.com/HariSekhon/DevOps-Python-tools):
 
   - CSV
@@ -801,7 +837,8 @@ See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowled
   - YAML
 
 - `json2yaml.sh` - converts JSON to YAML
-- `yaml2json.sh` - converts YAML to JSON - needed for some APIs like GitLab CI linting (see [Gitlab](https://github.com/HariSekhon/DevOps-Bash-tools#git---github-gitlab-bitbucket-azure-devops) section above)
+- `yaml2json.sh` - converts YAML to JSON - needed for some APIs like GitLab CI linting
+  (see [Gitlab](#git---github-gitlab-bitbucket-azure-devops) section above)
 
 ### Big Data & NoSQL
 
@@ -859,6 +896,8 @@ See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowled
   - `git_foreach_branch.sh` - executes a command on all branches (useful in heavily version branched repos like in my [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) repo)
   - `git_foreach_repo.sh` - executes a command against all adjacent repos from a given repolist (used heavily by many adjacent scripts)
   - `git_foreach_modified.sh` - executes a command against each file with git modified status
+  - `git_foreach_repo_replace_readme_actions.sh` - updates the `README.md` badges for GitHub Actions to match the local repo name. Useful to bulk fix copied badges quickly and easily
+  - `git_foreach_repo_update_readme.sh` - git-diff-commits the `README.md` for each Git repo checkout using adjacent `git_foreach_repo.sh` and `git_diff_commit.sh` scripts. Useful to quickly bulk update `README.md` in all your projects, such as when references need updating
   - `git_merge_all.sh` / `git_merge_master.sh` / `git_merge_master_pull.sh` - merges updates from master branch to all other branches to avoid drift on longer lived feature branches / version branches (eg. [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) repo)
   - `git_remotes_add_origin_providers.sh` - auto-creates remotes for the 4 major public repositories ([GitHub](https://github.com/)/[GitLab](https://gitlab.com/)/[Bitbucket](https://bitbucket.org)/[Azure DevOps](https://dev.azure.com/)), useful for `git pull -all` to fetch and merge updates from all providers in one command
   - `git_remotes_set_multi_origin.sh` - sets up multi-remote origin for unified push to automatically keep the 4 major public repositories in sync (especially useful for [Bitbucket](https://bitbucket.org) and [Azure DevOps](https://dev.azure.com/) which don't have [GitLab](https://gitlab.com/)'s auto-mirroring from [GitHub](https://github.com/) feature)
@@ -871,8 +910,11 @@ See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowled
   - `git_log_empty_commits.sh` - find empty commits in git history (eg. if a `git filter-branch` was run but `--prune-empty` was forgotten, leaking metadata like subjects containing file names or other sensitive info)
   - `git_graph_commit_history_gnuplot.sh` - generates GNUplot graphs of Git commits per year and per month for the entire history of the local Git repo checkout
   - `git_graph_commit_history_mermaidjs.sh` - generates MermaidJS graphs of Git commits per year and per month for the entire history of the local Git repo checkout
-  - `git_graph_commit_times_gnuplot.sh` - generates GNUplot graph of the GitHub commit times from all local adjacent Git repo checkouts listed in `setup/repos.txt` using Git log in each checkout
-  - `git_graph_commit_times_mermaidjs.sh` - generates MermaidJS graph of the GitHub commit times from all local adjacent Git repo checkouts listed in `setup/repos.txt` using Git log in each checkout
+  - `git_graph_commit_times_gnuplot.sh` - generates a GNUplot graph of Git commit times from the current Git repo checkout's `git log`
+  - `git_graph_commit_times_mermaidjs.sh` - generates a MermaidJS graph of Git commit times from the current Git repo checkout's `git log`
+  - `git_graph_commit_times_gnuplot_all_repos.sh` - generates GNUplot graph of the GitHub commit times from all local adjacent Git repo checkouts listed in `setup/repos.txt` using Git log in each checkout
+  - `git_graph_commit_times_mermaidjs_all_repos.sh` - generates MermaidJS graph of the GitHub commit times from all local adjacent Git repo checkouts listed in `setup/repos.txt` using Git log in each checkout
+  - `git_revert_line.sh` - reverts the first line that matches a given regex from the Git head commit's version of the same line number. Useful to revert some changes caused by over zealous sed'ing scripts, where you want to cherry-pick revert a single line change
   - `git_files_in_history.sh` - finds all filename / file paths in the git log history, useful for prepping for `git filter-branch`
   - `git_filter_branch_fix_author.sh` - rewrites Git history to replace author/committer name & email references (useful to replace default account commits). Powerful, read `--help` and `man git-filter-branch` carefully. Should only be used by Git Experts
   - `git_filter_repo_replace_text.sh` - rewrites Git history to replace a given text to scrub a credential or other sensitive token from history. Refuses to operate on tokens less than 8 chars for safety
@@ -903,6 +945,7 @@ See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowled
   - `github_pull_merge_trunk.sh` - pulls the origin or fork upstream repo's trunk branch and merges it into the local branch, In a forked GitHub repo's checkout, determines the origin of the fork using GitHub CLI, configures a git remote to the upstream, pulls the default branch and if on a branch other than the default then merges the default branch to the local current branch. Simplifies and automates keeping your checkout or forked repo up to date with the original source repo to quickly resolve merge conflicts locally and submit updated Pull Requests
   - `github_forked_add_remote.sh` - quickly adds a forked repo as a remote from an interactive men list of forked repos
   - `github_forked_checkout_branch.sh` - quickly check out a forked repo's branch from an interactive menu lists of forked repos and their branches
+  - `github_tag_hashref.sh` - Returns the GitHub commit hashref for a given GitHub Actions `owner/repo@tag` or `https://github.com/owner/repo@tag`. Useful for pinning 3rd party GitHub Actions to hashref instead of tag to follow [GitHub Actions Best Practices](https://github.com/HariSekhon/Knowledge-Base/blob/main/github-actions.md#github-actions-best-practices)
   - `github_actions_foreach_workflow.sh` - executes a templated command for each workflow in a given GitHub repo, replacing `{name}`, `{id}` and `{state}` in each iteration
   - `github_actions_aws_create_load_credential.sh` - creates an AWS user with group/policy, generates and downloads access keys, and uploads them to the given repo
   - `github_actions_in_use.sh` - lists GitHub Actions directly referenced in the .github/workflows in the current local repo checkout
@@ -963,6 +1006,7 @@ See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowled
   - `github_user_repos_forks.sh` - fetches the total number of forks for all original source public repos for a given user
   - `github_user_repos_count.sh` - fetches the total number of original source public repos for a given username
   - `github_user_followers.sh` - fetches the number of followers for a given username
+  - `github_url_clipboard.sh` - copies a GitHub URL file's contents to the clipboard, converting the URL to a raw GitHub content URL where necessary
 - `gitlab/*.sh` - [GitLab](https://gitlab.com/) API scripts:
   - `gitlab_api.sh` - queries the GitLab [API](https://docs.gitlab.com/ee/api/api_resources.html). Can infer GitLab user, repo and authentication token from local checkout or environment (`$GITLAB_USER`, `$GITLAB_TOKEN`)
   - `gitlab_install_binary.sh` - installs a binary from GitLab releases into $HOME/bin or /usr/local/bin. Auto-determines the latest release if no version specified, detects and unpacks any tarball or zip files
@@ -1215,6 +1259,9 @@ See also [Knowledge Base notes for Git](https://github.com/HariSekhon/Knowledge-
   - `terraform_import_github_team_repos.sh` - finds all `github_team_repository` in Terraform plan that would be added, then queries the GitHub API for the repos and team IDs and if they both exist then imports them to Terraform state
   - `terraform_resources.sh` - external program to get all resource ids and attribute for a given resource type to work around Terraform splat expression limitation ([#19931](https://github.com/hashicorp/terraform/issues/19931))
   - `terraform_managed_resource_types.sh` - quick parse of what Terraform resource types are found in `*.tf` files under the current or given directory tree. Useful to give you a quick glance of what services you are managing
+  - `terraform_registry_url_extract.sh` - extracts the Terraform Registry URL in either `tfr://` or `https://registry.terraform.io/` format from a given string, file or standard input. Useful to fast load Terraform Module documentation via editor/IDE hotkeys (see [.vimrc](configs/.vimrc)). Based on `urlextract.sh` above
+  - `terraform_registry_url_to_https.sh` - converts one or more Terraform Registry URLs from `tfr://` to `https://registry.terraform.io/` format
+  - `terraform_registry_url_open.sh` - opens the Terraform Registry URL given as a string arg, file or standard input in either `tfr://` or `https://registry.terraform.io/` format
   - See also [Knowledge Base notes for Terraform](https://github.com/HariSekhon/Knowledge-Base/blob/main/terraform.md).
 - `checkov_resource_*.sh` - [Checkov](https://www.checkov.io/) resource counts - useful to estimate [Bridgecrew Cloud](https://www.bridgecrew.cloud/) costs which are charged per resource:
   - `checkov_resource_count.sh` - counts the number of resources Checkov is scanning in the current or given directory
@@ -1232,8 +1279,19 @@ See also [Knowledge Base notes for CI/CD](https://github.com/HariSekhon/Knowledg
 
 ### Internet Services
 
-`bin/`, `pingdom/`, `terraform/` directories:
+`internet/`, `cloudflare/`, `pingdom/`, `terraform/` directories:
 
+- Pastebins - uploads files and copies the resulting URL to your clipboard:
+  - code / text only - prompts to approve text / code before upload for safety:
+    - `pastebin.sh` - uploads a file to <https://pastebin.com>, script auto-determines which syntax highlighting to add since API doesn't auto infer
+    - `dpaste.sh` - uploads a file to <https://dpaste.com>, script auto-determines which syntax highlighting to add since API doesn't auto infer
+    - `termbin.sh` - uploads a file to <https://termbin.com> (site has no syntax highlighting)
+  - all files, multimedia or text / code - prompts to approve text / code before upload for safety:
+    - `0x0.sh` - uploads a file to <https://0x0.st> (fast)
+    - `imgur.sh` - uploads an image file to <https://imgur.com>
+    - `file.io.sh` - uploads a file to <https://file.io> with 2 weeks, single download retention
+    - `catbox.sh` - uploads a file to <https://catbox.moe/> with permanent retention (slow)
+    - `litterbox.sh` - uploads a file to <https://litterbox.catbox.moe/> with temporary retention (slow)
 - `digital_ocean_api.sh` / `doapi.sh` - queries the [Digital Ocean](https://www.digitalocean.com/) API with authentication
   - see also the Digital Ocean CLI `doctl` (`install/install_doctl.sh`)
 - `atlassian_ip_ranges.sh` - lists [Atlassian](https://www.atlassian.com/)'s IPv4 and/or IPv6 cidr ranges via its API
@@ -1258,6 +1316,7 @@ See also [Knowledge Base notes for CI/CD](https://github.com/HariSekhon/Knowledg
   - `cloudflare_ssl_verified_all_zones.sh` - same as above for all zones
   - `cloudflare_zones.sh` - lists Cloudflare zone names and IDs (needed for writing Terraform Cloudflare code)
 - `datadog_api.sh` - queries the [DataDog](https://www.datadoghq.com/) API with authentication
+- `dnsjson.sh` - queries dnsjson.com for DNS records
 - `gitguardian_api.sh` - queries the [GitGuardian](https://www.gitguardian.com/) API with authentication
 - `jira_api.sh` - queries [Jira](https://www.atlassian.com/software/jira) API with authentication
 - `kong_api.sh` - queries the [Kong API Gateway](https://docs.konghq.com/gateway/latest/)'s Admin API, handling authentication if enabled
@@ -1336,19 +1395,31 @@ See also [Knowledge Base notes for Perl](https://github.com/HariSekhon/Knowledge
 
 - `golang_install.sh` - bulk installs Golang modules from mix of arguments / file lists / stdin
 - `golang_install_if_absent.sh` - same as above but only if the package binary isn't already available in `$PATH`
-- `golang_rm_binaries.sh` - deletes binaries of the same name adjacent to `.go` files. Doesn't delete you `bin/` etc as these are often real deployed applications rather than development binaries
+- `golang_rm_binaries.sh` - deletes binaries of the same name adjacent to `.go` files. Doesn't delete your `bin/` etc as these are often real deployed applications rather than development binaries
 
 ### Media
 
 `media/` directory:
 
+#### Images
+
+- `image_join_vertical.sh` - joins two images top and bottom after matching their widths so they align correctly
+- `image_join_horizontal.sh` - joins two images left and right after matching their heights so they align correctly
+- `imageopen.sh` - opens the given image file using whatever available tool is found on Linux or Mac
+- `svg_to_png.sh` - convert an SVG image to PNG to be usable on websites that don't support SVG images like LinkedIn, Medium or Reddit
+- `avif_to_png.sh` - convert an Avif image to PNG to be usable on websites that don't support Webp images like LinkedIn
+- `webp_to_png.sh` - convert a Webp image to PNG to be usable on websites that don't support Webp images like Medium
+
+#### Audio
+
 - `mp3_set_artist.sh` / `mp3_set_album.sh` - set the artist / album tag for all mp3 files under given directories. Useful for grouping artists/albums and audiobook author/books (eg. for correct importing into Mac's Books.app)
 - `mp3_set_track_name.sh` - set the track name metadata for mp3 files under given directories to follow their filenames. Useful for correctly displaying audiobook progress / chapters etc.
 - `mp3_set_track_order.sh` - set the track order metadata for mp3 files under given directories to follow the lexical file naming order. Useful for correctly ordering album songs and audiobook chapters (eg. for Mac's Books.app). Especially useful for enforcing global ordering on multi-CD audiobooks after grouping into a single audiobook using `mp3_set_album.sh` (otherwise default track numbers in each CD interleave in Mac's Books.app)
+
+#### Video
+
 - `avi_to_mp4.sh` - convert avi files to mp4 using ffmpeg. Useful to be able to play videos on devices like smart TVs that may not recognize newer codecs otherwise
 - `mkv_to_mp4.sh` - convert mkv files to mp4 using ffmpeg. Same use case as above
-- `svg_to_png.sh` - convert an SVG image to PNG to be usable on websites that don't support SVG images like LinkedIn, Medium or Reddit
-- `webp_to_png.sh` - convert a Webp image to PNG to be usable on websites that don't support Webp images like Medium
 - `youtube_download_channel.sh` - downloads all videos from a given YouTube channel URL
 
 See also [Knowledge Base notes for MultiMedia](https://github.com/HariSekhon/Knowledge-Base/blob/main/multimedia.md).

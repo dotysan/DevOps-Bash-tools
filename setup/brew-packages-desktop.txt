@@ -37,12 +37,14 @@ https://raw.githubusercontent.com/jingweno/spotctl/master/Formula/spotctl.rb
 # Install HomeBrew Desktop packages - one per line
 ack
 act  # runs GitHub Actions locally
+agg  # converts asciicast terminal recording to gif
 amazon-ecs-cli
 #amazon-sam-cli  # no longer found
 ansible
 ansible-lint
 archey4  # displays system info in text
 argocd
+asciinema  # records terminal to asciicast
 asdf
 #atomicparsley  # mp4 cli tool
 autoconf
@@ -76,6 +78,7 @@ ctop  # container top
 #cyberduck  # GUI client for FTP, SFTP, WebDAV, Amazon S3, Google Drive etc.
 d2  # declarative diagram language
 dateutils  # strptime, dateadd, dateconv, datediff, dategrep, dateseq, datesort, datetest, datezone - https://www.fresse.org/dateutils/
+dbeaver-community
 dhcping
 dhcpdump
 dialog  # create a curses interactive menu
@@ -92,6 +95,7 @@ docker-compose-completion
 doctl  # Digital Ocean CLI
 dos2unix
 drone-cli
+duti  # displays or set the default application for a given file extension or URL
 e2fsprogs
 #ec2-api-tools
 eksctl
@@ -245,7 +249,7 @@ rdesktop
 #redis
 #readline  # in brew-packages.txt
 #restic  # backup program, tracks versions, backups to a local repo dir / SFTP / Restic server http(s) / S3 / GCS / MinIO / Rclone
-rlwrap
+rlwrap  # gives readline wrapping support (commonly used with Oracle SQL*Plus)
 #rtmpdump
 ruby  # Mac ruby is too old to install Travis CI
 ruby-completion
@@ -267,6 +271,7 @@ sonar-scanner
 sqlite
 sqlfluff  # linter
 sqlparse  # SQL reformatter
+squirrelsql
 ssllabs-scan
 sslscan
 ssh-copy-id
@@ -281,8 +286,10 @@ tflint # Terraform linter
 tfsec  # Terraform static analysis by AquaSec
 thrift
 tidy-html5
-tree
 tmux
+tree
+ttygif  # records terminal and creates gif
+#ttyrec  # pulled as dependency of ttygif
 urlview  # used by tmux plugin tmux-urlview, and also my advanced .vimrc
 unix2dos
 #unrar  # no longer available

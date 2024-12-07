@@ -29,6 +29,7 @@
 
 HariSekhon:harisekhon
 Knowledge-Base:knowledge
+Environments:environments
 # order repos by dependent submodule repos first
 GitHub-Actions:github-actions
 GitHub-Actions-Contexts:contexts
@@ -56,6 +57,7 @@ Spotify-tools:spotify-tools
 Spotify-Playlists:playlists
 #Spark-Apps:spark-apps
 Template-repo:trepo
+TamperMonkey:tampermonkey
 
 HAProxy-configs:haproxy-configs
 
