@@ -2,9 +2,9 @@
 #  vim:ts=4:sts=4:sw=4:et
 #
 #  Author: Hari Sekhon
-#  Date: 2021-11-24 12:40:18 +0000 (Wed, 24 Nov 2021)
+#  Date: 2024-12-16 12:03:31 +0700 (Mon, 16 Dec 2024)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https///github.com/HariSekhon/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
@@ -22,20 +22,29 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Lists AWS Secrets Manager secrets, one per line
+Quick table of AWS ElastiCache useful fields:
 
-Any args are passed directly to 'aws secretsmanager'
+Name, Engine, Status, Endpoint Address & Port, Description
 
 
-$usage_aws_cli_jq_required
+$usage_aws_cli_required
 "
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="[<aws_options>]"
+usage_args=""
 
 help_usage "$@"
 
-aws secretsmanager list-secrets "$@" |
-jq_debug_pipe_dump |
-jq -r '.SecretList[].Name'
+num_args 0 "$@"
+
+aws elasticache describe-serverless-caches \
+    --query 'ServerlessCaches[*].{
+        "   Name":ServerlessCacheName,
+        "  Engine":Engine,
+        "  Status":Status,
+        " Endpoint Address":Endpoint.Address,
+        " Endpoint Port":Endpoint.Port,
+        Description:Description
+    }' \
+    --output table

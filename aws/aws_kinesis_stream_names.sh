@@ -2,9 +2,9 @@
 #  vim:ts=4:sts=4:sw=4:et
 #
 #  Author: Hari Sekhon
-#  Date: 2021-11-24 12:40:18 +0000 (Wed, 24 Nov 2021)
+#  Date: 2024-12-16 12:48:36 +0700 (Mon, 16 Dec 2024)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https///github.com/HariSekhon/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
@@ -22,20 +22,18 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Lists AWS Secrets Manager secrets, one per line
-
-Any args are passed directly to 'aws secretsmanager'
+Quickly lists the Kinesis stream names
 
 
-$usage_aws_cli_jq_required
+$usage_aws_cli_required
 "
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="[<aws_options>]"
+usage_args=""
 
 help_usage "$@"
 
-aws secretsmanager list-secrets "$@" |
-jq_debug_pipe_dump |
-jq -r '.SecretList[].Name'
+num_args 0 "$@"
+
+aws kinesis list-streams --query 'StreamNames[]' --output text | tr '[:space:]' '\n'
