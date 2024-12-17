@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #  vim:ts=4:sts=4:sw=4:et
-#  args: one two three
+#  args: 100 110
 #
 #  Author: Hari Sekhon
-#  Date: 2016-08-01 17:53:24 +0100 (Mon, 01 Aug 2016)
+#  Date: 2024-12-17 12:28:21 +0700 (Tue, 17 Dec 2024)
 #
-#  https://github.com/HariSekhon/DevOps-Bash-tools
+#  https///github.com/HariSekhon/DevOps-Bash-tools
 #
 #  License: see accompanying Hari Sekhon LICENSE file
 #
@@ -14,7 +14,7 @@
 #  https://www.linkedin.com/in/HariSekhon
 #
 
-set -eu
+set -euo pipefail
 [ -n "${DEBUG:-}" ] && set -x
 srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -23,30 +23,28 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Prints one of the arguments via random selection
+Prints a random integer between two integer arguments (inclusive)
 "
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="<arg1> <arg2> [<arg3> ...]"
+usage_args="<min> <max>"
 
 help_usage "$@"
 
-min_args 2 "$@"
+num_args 2 "$@"
 
-index=0
+min="$1"
+max="$2"
 
-declare -a arg_array
+if ! is_int "$min"; then
+    usage "First arg is not an integer: $min"
+elif ! is_int "$max"; then
+    usage "Second arg is not an integer: $max"
+fi
 
-for arg in "$@"; do
-    log "Saving arg' $arg' at index '$index'"
-    arg_array[index]="$arg"
-    ((index += 1))
-done
+#random_number="$(shuf -i "$min-$max" -n 1)"
 
-num_args="${#@}"
+random_number="$((RANDOM % (max - min + 1) + min))"
 
-selected_index="$((RANDOM % num_args))"
-
-log "Selecting arg index $selected_index"
-echo "${arg_array[$selected_index]}"
+echo "$random_number"
