@@ -25,6 +25,8 @@ usage_description="
 Generates subdirectories containing the config.ini and .envrc for every AWS profile found
 in the given file or \$AWS_CONFIG_FILE or ~/.aws/config
 
+Does not overwrite by default for safety, you must export environment variable AWS_PROFILE_DIRENV_OVERWRITE=1
+
 Useful to take a large generated AWS config.ini from script:
 
     aws_sso_configs.sh
@@ -75,7 +77,8 @@ EOF
         fi
     fi
     envrc="$profile/.envrc"
-    if ! [ -f "$envrc" ]; then
+    if ! [ -f "$envrc" ] ||
+       [ "${AWS_PROFILE_DIRENV_OVERWRITE:-}" = 1 ]; then
         # AWS_ACCOUNT_ID is automatically inferred by envrc code from AWS_PROFILE which is all we need
         #account_id="$(grep -Eo '^[[:space:]]*[[:alnum:]_]*account_id[[:space:]]*=[[:space:]][[:digit:]]+' "$subconfig" || :)"
         #if [ -z "$account_id" ]; then
@@ -83,24 +86,26 @@ EOF
         #fi
         #echo "export AWS_ACCOUNT_ID=$aws_account_id" >> "$envrc"
         timestamp "Generating $envrc" # with AWS_PROFILE=$profile"
-        cat >> "$envrc" <<EOF
+        cat > "$envrc" <<EOF
+#!/usr/bin/env bash
+#
 # Generated using ${0##*/} from:
 #
 #   https://github.com/HariSekhon/DevOps-Bash-tools
 
 export AWS_PROFILE=$profile
 
-#export EKS_CLUSTER=
+export EKS_CLUSTER="\$(aws eks list-clusters --output json 2>/dev/null | jq -r '.clusters[0]')"
 #export EKS_NAMESPACE=
 
-# if copying this .envrc to terraform / terragrunt directories in a different part of the repo:
-#
-#git_root="$(git rev-parse --show-toplevel)"
-#
-# shellcheck disable=SC1091
-#. "\$git_root/aws/.envrc"
+#. ../.envrc
 
-. ../.envrc
+git_root="\$(git rev-parse --show-toplevel)"
+
+# shellcheck disable=SC1091
+. "\$git_root/aws/.envrc"
 EOF
+    else
+        timestamp "Direnv configuration already exists, skipping: $envrc"
     fi
 done
