@@ -22,14 +22,14 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # shellcheck disable=SC2034,SC2154
 usage_description="
-Downloads all videos from an entire YouTube channel using yt-dlp
+Downloads a YouTube video to mp4 with maximum quality and compatibility using yt-dlp
 
 Installs yt-dlp (for downloading) and ffmpeg (for conversions) via OS package manager if not already installed
 "
 
 # used by usage() in lib/utils.sh
 # shellcheck disable=SC2034
-usage_args="<youtube_channel_url>"
+usage_args="<youtube_video_url>"
 
 help_usage "$@"
 
@@ -49,8 +49,6 @@ for cmd in yt-dlp ffmpeg; do
 done
 
 # https://github.com/yt-dlp/yt-dlp#output-template
-
-#yt-dlp -f mp4 -c -w -o "%(upload_date)s - %(title)s.%(ext)s" -v "$1"
 
 # -c --continue
 # -w --no-overwrite
@@ -73,6 +71,6 @@ yt-dlp \
     --merge-output-format mp4 \
     --continue \
     --no-overwrite \
-    --output "%(autonumber)s - %(title)s.%(ext)s" \
+    --output "%(title)s.%(ext)s" \
     ${DEBUG:+--verbose} \
     "$1"

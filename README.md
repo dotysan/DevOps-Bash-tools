@@ -233,7 +233,7 @@ make
 - [Python](#python) - Python utilities & library management
 - [Perl](#perl) - Perl utilities & library management
 - [Golang](#golang) - Golang utilities
-- [Media](#media) - MP3 metadata editing, grouping and ordering of albums and audiobooks, mkv/avi to mp4 converters, YouTube channel download
+- [Media](#media) - MP3 metadata editing, grouping and ordering of albums and audiobooks, mkv/avi to mp4 converters, 720p video downscaler, download YouTube videos or even entire channels
 - [Spotify](#spotify) - 40+ Spotify API scripts for backups, managing playlists, track deduplication, URI conversion, search, add/delete, liked tracks, followed artists, top artists, top tracks etc.
 - [More Linux & Mac](#more-linux--mac) - more systems administration scripts, package installation automation
 - [Builds, Languages & Linting](#builds-languages--linting) - programming language, build system & CI linting
@@ -1427,9 +1427,9 @@ See also [Knowledge Base notes for Perl](https://github.com/HariSekhon/Knowledge
 - `image_join_vertical.sh` - joins two images top and bottom after matching their widths so they align correctly
 - `image_join_horizontal.sh` - joins two images left and right after matching their heights so they align correctly
 - `imageopen.sh` - opens the given image file using whatever available tool is found on Linux or Mac
-- `svg_to_png.sh` - convert an SVG image to PNG to be usable on websites that don't support SVG images like LinkedIn, Medium or Reddit
-- `avif_to_png.sh` - convert an Avif image to PNG to be usable on websites that don't support Webp images like LinkedIn
-- `webp_to_png.sh` - convert a Webp image to PNG to be usable on websites that don't support Webp images like Medium
+- `svg_to_png.sh` - converts an SVG image to PNG to be usable on websites that don't support SVG images like LinkedIn, Medium or Reddit
+- `avif_to_png.sh` - converts an Avif image to PNG to be usable on websites that don't support Webp images like LinkedIn
+- `webp_to_png.sh` - converts a Webp image to PNG to be usable on websites that don't support Webp images like Medium
 
 #### Audio
 
@@ -1439,9 +1439,11 @@ See also [Knowledge Base notes for Perl](https://github.com/HariSekhon/Knowledge
 
 #### Video
 
-- `avi_to_mp4.sh` - convert avi files to mp4 using ffmpeg. Useful to be able to play videos on devices like smart TVs that may not recognize newer codecs otherwise
-- `mkv_to_mp4.sh` - convert mkv files to mp4 using ffmpeg. Same use case as above
-- `youtube_download_channel.sh` - downloads all videos from a given YouTube channel URL
+- `avi_to_mp4.sh` - converts avi files to mp4 using ffmpeg. Useful to be able to play videos on devices like smart TVs that may not recognize newer codecs otherwise
+- `mkv_to_mp4.sh` - converts mkv files to mp4 using ffmpeg. Same use case as above
+- `youtube_download_video.sh` - downloads a YouTube video to mp4 with maximum quality and compatibility usng yt-dlp
+- `youtube_download_channel.sh` - downloads all videos from a given YouTube channel using yt-dlp
+- `video_to_720p_mp4` - converts one or more video files to 720p mp4 format using ffmpeg. Useful to make good trade-off of quality vs size for social media sharing
 
 See also [Knowledge Base notes for MultiMedia](https://github.com/HariSekhon/Knowledge-Base/blob/main/multimedia.md).
 
